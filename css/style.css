@@ -108,6 +108,7 @@ main{
     height: 30px;
     width: 30px;
     text-align: center;
+    padding-top: 6px;
 }
 .sostenibilita2{
     background-color: var(--verde);
@@ -144,3 +145,36 @@ h2{
     font-size: 0.9rem;
     font-weight: bold;
 }
+/* footer */
+footer{
+    background-color: var(--grigio-scuro);
+    padding-top: 15px;
+    height:600px;
+}
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--bianco);
+}
+.divisore-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.destra{
+ 
+}
+.sinistra{
+    display: inline-block;
+}
+h4{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--bianco);
+}
+li {
+    float: left;
+    list-style-position: initial;
+}
+ul li {
+    margin: 5px;
+  }
