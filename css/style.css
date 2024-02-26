@@ -11,8 +11,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: var(--bianco);
+  }
+  a:hover{
+    text-decoration: none;
+    color: var(--bianco);
   }
   
   img {
     max-width: 100%;
   }
+
+  .contenitore{
+        width:70%;
+        margin: 0 auto;   
+  }
+  /* header */
+  header{
+    
+    background-color: var(--arancione);
+    
+  }
+  header img{
+    height: 25px;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+header ul {
+    display: flex;
+    padding: 5px;
+}
+header li {
+    padding: 10px;
+}
