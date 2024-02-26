@@ -60,6 +60,7 @@ main{
 .colonna{
         width: calc(100% / 3);
         padding: 10px;
+        position: relative;
 }
 .scheda{
 
@@ -78,4 +79,45 @@ main{
 .scheda:hover .imgb{
     display: block;
 
+}
+.sconto{
+    position: absolute;
+    bottom: 100px;
+    background-color: var(--rosso);
+    color: var(--bianco);
+    height: 22px;
+    width: 35px;
+    text-align: center;
+}
+.sostenibilita{
+    position: absolute;
+    bottom: 100px;
+    left: 55px;
+    background-color: var(--verde);
+    color: var(--bianco);
+    height: 22px;
+    width: 100px;
+    text-align: center;
+}
+.cuore{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background-color: var(--bianco);
+    color: var(--nero);
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+.sostenibilita2{
+    background-color: var(--verde);
+    color: var(--bianco);
+    height: 22px;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+}
+.cuore:hover{
+    color: var(--rosso);
 }
