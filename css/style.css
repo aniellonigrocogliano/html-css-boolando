@@ -52,3 +52,30 @@ header ul {
 header li {
     padding: 10px;
 }
+/* sezione shop */
+main{
+    display: flex;
+    flex-wrap: wrap ;
+}
+.colonna{
+        width: calc(100% / 3);
+        padding: 10px;
+}
+.scheda{
+
+}
+.imga{
+    display: block;
+
+}
+.imgb{
+ display: none;
+}
+.scheda:hover .imga{
+    display: none;
+
+}
+.scheda:hover .imgb{
+    display: block;
+
+}
