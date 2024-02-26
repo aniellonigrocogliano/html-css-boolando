@@ -121,3 +121,26 @@ main{
 .cuore:hover{
     color: var(--rosso);
 }
+.sovratitolo{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+h2{
+    font-size: 1rem;
+}
+.scontato{
+    color: var(--rosso);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.vecchioprezzo{
+    color: var(--nero);
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.prezzo{
+    color: var(--rosso);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
