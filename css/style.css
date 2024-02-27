@@ -112,6 +112,7 @@ main{
     width: 30px;
     text-align: center;
     padding-top: 6px;
+     cursor: pointer; /*aggiunge mano per indicare che è cliccabile */
 }
 .sostenibilita2{
     background-color: var(--verde);
